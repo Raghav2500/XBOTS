@@ -8,8 +8,8 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TheAltron"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/AltronChats")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/cameliaa_x_chat"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/cameliaa_x_chat")
     ],
     [
         Button.url("• ʀᴇᴘᴏ •", "https://github.com/ItZxSTaR/XBOTS")
@@ -40,7 +40,7 @@ async def start(event):
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://te.legra.ph/file/07d39b85c6cea32f15259.jpg",
+                    "https://te.legra.ph/file/388613c78f9ef2c446fd9.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
